@@ -154,7 +154,7 @@ static NSString *kMMRingRotationAnimationKey = @"mmmaterialdesignspinner.rotatio
     self.progressLayer.path = path.CGPath;
     
     self.progressLayer.strokeStart = 0.f;
-    self.progressLayer.strokeEnd = 0.f;
+    self.progressLayer.strokeEnd = 1.f;
 }
 
 #pragma mark - Properties
